@@ -1,0 +1,49 @@
+body{
+    background-image: url(bg-desktop.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+main{
+    color: white;
+    font-family: "Josefin Sans", sans-serif;
+text-align: center;
+padding-top: 200px;
+}
+
+.inic{
+padding-top: 40px;
+
+*{
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+}
+
+.inic a{
+    background-color: rgba(128, 128, 128, 0.141);
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    border-radius: 20px;
+    transition: all 0.1s 0.1s;
+}
+
+.inic a:hover{
+    padding: 25px;
+    color: gray;
+}
+
+.logo img{
+    height: 90px;
+display: block;
+position: initial;
+  
+}
+
+.logo{
+    display: block;
+    position: initial;
+
+}

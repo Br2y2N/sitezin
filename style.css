@@ -1,0 +1,107 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: "Josefin Sans", sans-serif;
+ 
+}
+html{
+  background-image: url(bg-desktop.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+header{
+  text-align: center;
+  padding-bottom: 30px;
+  font-family: "Josefin Sans", sans-serif;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+}
+
+header img{
+  height: 90px;
+  display: block;
+  padding-top: 15px;
+}
+
+nav li{
+  display: inline;
+}
+
+nav{
+  padding-top: 30px;
+  padding-bottom: 80px;
+  font-size: 20px;
+  word-spacing: 200px;
+  text-align: center;
+  letter-spacing: 1px;
+  
+}
+
+nav a{
+  text-decoration: none;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.133);
+  padding: 20px;
+  border-radius: 25px;
+transition: all 0.1s 0.1s;
+}
+
+nav a:hover{
+  font-size: 25px;
+  color: grey;
+}
+
+.tutorial img{
+  height: 700px;
+  display: flex;
+  margin: auto;
+  border-radius: 25px;
+
+}
+
+.questoes{
+ color: white;
+  font-size: 30px;
+  text-align: center;
+}
+
+.resp{
+  padding-top: 200px;
+text-align: center;
+display: flex;
+justify-content: center;
+gap: 400px;
+font-size: 40px;
+}
+
+.resp a{
+  text-decoration: none;
+  color: white;
+  background-color: rgba(128, 128, 128, 0.222);
+  padding: 20px;
+  border-radius: 25px;
+  color: gray;
+transition: all 0.1s 0.1s;
+}
+
+.resp a:hover{
+  color: white; 
+  padding: 25px;
+}
+
+ul{
+  padding: 50px;
+ 
+}
+
+.letras{
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.letras{
+  display: flex;
+  gap: 50px;
+  padding-top: 50px;
+}
